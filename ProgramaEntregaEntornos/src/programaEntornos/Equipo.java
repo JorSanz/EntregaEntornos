@@ -5,7 +5,7 @@ public class Equipo {
     private int cantidadJugadores;
 
     /**
-     * El constructor.
+     * Creamos el constructor.
      */
     public Equipo(String nombre, int cantidadJugadores) {
         this.nombre = nombre;
@@ -13,16 +13,16 @@ public class Equipo {
     }
 
     /**
-     * Método para obtener el nombre del equipo.
+     * Para ver el nombre del equipo.
      */
-    public String obtenerNombre() {
+    public String nombreEquipo() {
         return nombre;
     }
 
     /**
-     * Método para obtener la cantidad de jugadores en el equipo.
+     * Para ver la cantidad de jugadores del equipo.
      */
-    public int obtenerCantidadJugadores() {
+    public int cantidadJugadores() {
         return cantidadJugadores;
     }
 }

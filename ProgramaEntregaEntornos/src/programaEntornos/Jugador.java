@@ -6,7 +6,7 @@ public class Jugador {
     private float altura;
 
     /**
-     * Constructor de la clase Jugador.
+     * Creamos el constructor.
      */
     public Jugador(String nombre, int edad) {
         this.nombre = nombre;
@@ -14,16 +14,17 @@ public class Jugador {
     }
 
     /**
-     * Método para imprimir la información del jugador.
+     * Para ver la información del jugador.
      */
-    public String imprimirInformacion() {
+    public String informacionJugador() {
         return "Nombre: " + nombre + ", Edad: " + edad;
     }
 
     /**
-     * Método para determinar si el jugador es mayor de edad.
+     * Para ver si el jugador es mayor de edad.
      */
-    public boolean esMayorDeEdad() {
+    public boolean mayorDeEdad() {
         return edad >= 18;
+        
     }
 }
