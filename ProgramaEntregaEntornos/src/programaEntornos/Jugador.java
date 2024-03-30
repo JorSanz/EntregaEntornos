@@ -3,6 +3,7 @@ package programaEntornos;
 public class Jugador {
     private String nombre;
     private int edad;
+    private float altura;
 
     /**
      * Constructor de la clase Jugador.
